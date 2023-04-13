@@ -6,6 +6,9 @@ export default function Sample03() {
 
     const { scrollY } = useScroll()
 
+    console.log(scrollY);
+
+
     return (
         <>
             <motion.div
