@@ -4,16 +4,17 @@ import style from './index.module.scss'
 
 export default function Sample03() {
 
-    const { scrollY } = useScroll()
+    const { scrollYProgress } = useScroll()
 
-    console.log(scrollY);
+    console.log(scrollYProgress);
+
 
 
     return (
         <>
             <motion.div
                 className={style.bar}
-                style={{ scaleX: scrollY }}
+                style={{ scaleX: scrollYProgress }}
             />
             <Component />
         </>
