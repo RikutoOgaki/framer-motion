@@ -5,8 +5,8 @@ export default function Index() {
     <>
       <div>
         <ul>
-          <Link href={'./samples/01'}><li>Sample01</li></Link>
-          <Link href={'./samples/02'}><li>Sample02</li></Link>
+          <Link href={'./samples/01'}><li>Sample01:メニュー表</li></Link>
+          <Link href={'./samples/02'}><li>Sample02:マウスストーカー</li></Link>
         </ul>
       </div>
     </>
