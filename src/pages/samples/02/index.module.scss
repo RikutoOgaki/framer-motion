@@ -1,0 +1,42 @@
+.pointer {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    opacity: .5;
+    position: fixed;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform;
+    pointer-events: none;
+    z-index: 999;
+}
+
+.pointerMidll {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: blue;
+    opacity: .5;
+    position: fixed;
+    top: -12.5px;
+    left: -12.5px;
+    border-radius: 50%;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform;
+    pointer-events: none;
+}
+
+.pointerSmall {
+    width: 12.5px;
+    height: 12.5px;
+    border-radius: 50%;
+    background-color: blue;
+    opacity: .5;
+    position: fixed;
+    top: -6.5px;
+    left: -6.5px;
+    border-radius: 50%;
+    transition: 1.5s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform;
+    pointer-events: none;
+}
