@@ -8,6 +8,7 @@ export default function Index() {
           <Link href={'./samples/01'}><li>Sample01:メニュー表</li></Link>
           <Link href={'./samples/02'}><li>Sample02:マウスストーカー</li></Link>
           <Link href={'./samples/03'}><li>Sample03:スクロールに合わせてバーが出てくる</li></Link>
+          <Link href={'./samples/04'}><li>Sample04:メニュー表２</li></Link>
         </ul>
       </div>
     </>
