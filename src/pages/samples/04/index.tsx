@@ -26,6 +26,7 @@ export default function Sample04() {
                 >
                     <motion.button
                         whileTap={{ scale: .97 }}
+                        className={style.btn}
                         onClick={() => setIsOpen(!isOpen)}
                     >Menu
                         <motion.div

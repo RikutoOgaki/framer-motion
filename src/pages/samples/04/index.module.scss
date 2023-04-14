@@ -1,38 +1,41 @@
 .wrap {
     width: 100%;
     height: 100vh;
+    background: linear-gradient(#0098d4, #66c3e8);
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#00b7ff, #b5d3de);
 
     .menu {
-        filter: drop-shadow(1px 1px 1px #005b80);
-        width: 30rem;
+        filter: drop-shadow(1px 1px 1px #7b5bab);
+        width: 300px;
 
-        button {
+        .btn {
+            -webkit-appearance: button;
             border: none;
             border-radius: 10px;
-            padding: 1rem 2rem;
-            font-size: 1.8rem;
+            padding: 10px 20px;
+            font-size: 18px;
+            font-weight: 700;
             cursor: pointer;
             width: 100%;
-            display: contents;
+            text-align: left;
+            margin-bottom: 10px;
+            display: flex;
             justify-content: space-between;
             align-items: center;
-            text-align: left;
-
         }
-    }
 
-    ul,
-    li {
-        margin: 0;
-        padding: 0;
-    }
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: #fff;
 
-    code {
-        font-weight: 500;
-        font-style: normal;
+            & li {
+                color: #66c3e8;
+                display: block;
+            }
+        }
     }
 }
