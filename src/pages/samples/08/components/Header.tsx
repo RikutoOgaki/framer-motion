@@ -12,8 +12,7 @@ export default function Header() {
                         justifyContent={'space-around'}
                         alignItems={'center'}
                         position={'absolute'}
-                        top={0}
-                    >
+                        top={0}>
                         <Link href={'/'}>
                             <Text
                                 fontSize={{ base: '3xl', md: '5xl' }}
