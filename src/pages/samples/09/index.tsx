@@ -31,33 +31,6 @@ export default function Sample09() {
 
     return (
         <>
-            <Box
-                w={'30px'}
-                h={'30px'}
-                borderRadius={'50%'}
-                border={'1px solid blue'}
-                justifyContent={'center'}
-                alignItems={'center'}
-                position={'absolute'}
-                top={'-15px'}
-                left={'-15px'}
-                transition={'.7s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform'}
-                style={{ transform: `translate(${state.x}px , ${state.y}px)` }}
-                zIndex={'999'}
-            >
-            </Box>
-            <Box
-                w={'10px'}
-                h={'10px'}
-                bg={'blue'}
-                borderRadius={'50%'}
-                position={'absolute'}
-                top={'-5px'}
-                left={'-5px'}
-                transition={'.3s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform'}
-                style={{ transform: `translate(${state.x}px , ${state.y}px)` }}
-                zIndex={'999'}
-            ></Box>
             <Flex
                 w={'100%'}
                 h={'100vh'}
@@ -65,8 +38,33 @@ export default function Sample09() {
                 justifyContent={'center'}
                 alignItems={'center'}
                 bgGradient={'linear(to-r,rgb(92,187,216),purple.500)'}>
+                <Box
+                    w={'30px'}
+                    h={'30px'}
+                    borderRadius={'50%'}
+                    border={'1px solid blue'}
+                    justifyContent={'center'}
+                    alignItems={'center'}
+                    position={'absolute'}
+                    top={'-15px'}
+                    left={'-15px'}
+                    transition={'.7s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform'}
+                    style={{ transform: `translate(${state.x}px , ${state.y}px)` }}
+                >
+                </Box>
+                <Box
+                    w={'10px'}
+                    h={'10px'}
+                    bg={'blue'}
+                    borderRadius={'50%'}
+                    position={'absolute'}
+                    top={'-5px'}
+                    left={'-5px'}
+                    transition={'.3s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform'}
+                    style={{ transform: `translate(${state.x}px , ${state.y}px)` }}
+                ></Box>
                 <Flex w={'50%'} justifyContent={'space-around'} textAlign={'center'}>
-                    <Text w={'10%'} h={'5vh'} border={'1px solid #fff'} fontSize={'3xl'} color={'#fff'} fontWeight={'bold'} lineHeight={'5vh'}>if</Text>
+                    <Text _hover={{ bg: 'blue' }} w={'10%'} h={'5vh'} border={'1px solid #fff'} fontSize={'3xl'} color={'#fff'} fontWeight={'bold'} lineHeight={'5vh'}>if</Text>
                     <Text w={'10%'} h={'5vh'} border={'1px solid #fff'} fontSize={'3xl'} color={'#fff'} fontWeight={'bold'} lineHeight={'5vh'}>Array</Text>
                     <Text w={'10%'} h={'5vh'} border={'1px solid #fff'} fontSize={'3xl'} color={'#fff'} fontWeight={'bold'} lineHeight={'5vh'}>for</Text>
                 </Flex>
