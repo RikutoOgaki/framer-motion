@@ -13,7 +13,8 @@ export default function Index() {
           <Link href={'./samples/06'}><li>Sample06:HoverButton</li></Link>
           <Link href={'./samples/07'}><li>Sample07:DragBox</li></Link>
           <Link href={'./samples/08'}><li>Sample08:PortFolio(色違い)</li></Link>
-          <Link href={'./samples/09'}><li>Sample09:マウスストーカーがHoverするイベント</li></Link>
+          <Link href={'./samples/09'}><li>Sample09:マウスストーカーv2</li></Link>
+          <Link href={'./samples/10'}><li>Sample10:</li></Link>
         </ul>
       </div>
     </>

@@ -50,6 +50,7 @@ export default function Sample09() {
                     left={'-15px'}
                     transition={'.7s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform'}
                     style={{ transform: `translate(${state.x}px , ${state.y}px)` }}
+
                 >
                 </Box>
                 <Box
@@ -62,12 +63,8 @@ export default function Sample09() {
                     left={'-5px'}
                     transition={'.3s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform'}
                     style={{ transform: `translate(${state.x}px , ${state.y}px)` }}
+                    zIndex={'999'}
                 ></Box>
-                <Flex w={'50%'} justifyContent={'space-around'} textAlign={'center'}>
-                    <Text _hover={{ bg: 'blue' }} w={'10%'} h={'5vh'} border={'1px solid #fff'} fontSize={'3xl'} color={'#fff'} fontWeight={'bold'} lineHeight={'5vh'}>if</Text>
-                    <Text w={'10%'} h={'5vh'} border={'1px solid #fff'} fontSize={'3xl'} color={'#fff'} fontWeight={'bold'} lineHeight={'5vh'}>Array</Text>
-                    <Text w={'10%'} h={'5vh'} border={'1px solid #fff'} fontSize={'3xl'} color={'#fff'} fontWeight={'bold'} lineHeight={'5vh'}>for</Text>
-                </Flex>
             </Flex >
         </>
     )
