@@ -10,9 +10,23 @@ export default function Header() {
                     h={'5vh'}
                     justifyContent={'space-around'}
                     alignItems={'center'}>
-                    <Link href={'/'}><Text color={'#000'}>TOP</Text></Link>
-                    <Link href={'/'}><Text>Skills</Text></Link>
-                    <Link href={'/'}><Text>Works</Text></Link>
+                    <Link href={'/'}>
+                        <Text
+                            fontSize={{ base: '3xl', md: '5xl' }}
+                            fontWeight={'bold'}
+                            color={'#fff'}>TOP</Text></Link>
+                    <Link href={'/'}>
+                        <Text
+                            fontSize={{ base: '3xl', md: '5xl' }}
+                            fontWeight={'bold'}
+                            color={'#fff'}
+                        >Skills</Text></Link>
+                    <Link href={'/'}>
+                        <Text
+                            fontSize={{ base: '3xl', md: '5xl' }}
+                            fontWeight={'bold'}
+                            color={'#fff'}
+                        >Works</Text></Link>
                 </Flex>
             </header>
         </>
