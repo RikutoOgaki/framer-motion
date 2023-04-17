@@ -12,7 +12,7 @@ export default function Index() {
           <Link href={'./samples/05'}><li>Sample05:</li></Link>
           <Link href={'./samples/06'}><li>Sample06:HoverButton</li></Link>
           <Link href={'./samples/07'}><li>Sample07:DragBox</li></Link>
-          <Link href={'./samples/08'}><li>Sample08:</li></Link>
+          <Link href={'./samples/08'}><li>Sample08:PortFolio(色違い)</li></Link>
         </ul>
       </div>
     </>
