@@ -4,6 +4,8 @@ import style from '@/styles/sample/02/index.module.scss'
 
 export default function Sample02() {
     return (
-        <></>
+        <>
+
+        </>
     )
 }

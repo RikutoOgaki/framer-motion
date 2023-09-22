@@ -9,7 +9,7 @@ export default function Index() {
         <Header title={'Framer Motion.'} />
         <ul>
           <Link href={'./sample/01'}><li>Sample01</li></Link>
-          <Link href={'./samples/02'}><li>Sample02</li></Link>
+          <Link href={'./sample/02'}><li>Sample02</li></Link>
         </ul>
       </div>
     </>
