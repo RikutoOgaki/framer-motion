@@ -11,7 +11,17 @@ export default function Sample02() {
 
     return (
         <>
-
+            <div className={style.wrap}>
+                <div className={style.subWrap}>
+                    <motion.div
+                        className={style.box}
+                        animate={{ x, y, rotate }}
+                        transition={{ type: 'spring' }}
+                    />
+                </div>
+                <div className={style.inputBox}>
+                </div>
+            </div>
         </>
     )
 }
