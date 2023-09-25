@@ -9,8 +9,8 @@ interface State {
 }
 
 export function InputComponent({
-    children,
     value,
+    children,
     set,
     min = -200,
     max = 200

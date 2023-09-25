@@ -20,6 +20,9 @@ export default function Sample02() {
                     />
                 </div>
                 <div className={style.inputBox}>
+                    <InputComponent value={x} set={setX}>x</InputComponent>
+                    <InputComponent value={y} set={setY}>y</InputComponent>
+                    <InputComponent value={rotate} set={setRotate} min={-180} max={180}>rotate</InputComponent>
                 </div>
             </div>
         </>
