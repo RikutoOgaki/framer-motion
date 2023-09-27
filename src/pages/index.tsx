@@ -5,12 +5,13 @@ import { Header } from '@/components/Header'
 export default function Index() {
   return (
     <>
+      <Header title={'Framer Motion.'} />
       <div className={style.wrap}>
-        <Header title={'Framer Motion.'} />
         <ul>
           <Link href={'./sample/01'}><li>Sample01</li></Link>
           <Link href={'./sample/02'}><li>Sample02</li></Link>
           <Link href={'./sample/03'}><li>Sample03</li></Link>
+          <Link href={'./sample/04'}><li>Sample04</li></Link>
         </ul>
       </div>
     </>

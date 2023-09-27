@@ -1,0 +1,14 @@
+.wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #800080;
+
+    .box {
+        width: 10rem;
+        height: 10rem;
+        background-color: #ffffff;
+    }
+}
