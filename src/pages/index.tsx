@@ -12,6 +12,7 @@ export default function Index() {
           <Link href={'./sample/02'}><li>Sample02</li></Link>
           <Link href={'./sample/03'}><li>Sample03</li></Link>
           <Link href={'./sample/04'}><li>Sample04</li></Link>
+          <Link href={'./sample/05'}><li>Sample05</li></Link>
         </ul>
       </div>
     </>
